@@ -184,17 +184,41 @@ h2{
 
 
  /* follower section end  */
+ .email{
+     
+     height: 400px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(rgba(0, 0, 0, 0.850),rgba(0, 0, 0, 0.850)),url(images/email.jpg);
+     background-repeat: no-repeat;
+     background-position: center,center;
+     background-size: cover;
+ }
+ .email-p{
+     margin: 0 10px;
+     padding-top:10px ;
+     font-size: 32px;
+     color: white;
+ }
+ input{
+     padding: 10px;
+     width: 250px;
+     height: 25px;
+     border-radius: 3px;
+     background: transparent;
+     color: white;
+ }
  
- /* food start  */
+ 
+ /* footer start  */
  .food{
     background-color: #0B0D17;
 }
 .food-head{
     text-align: center;
 }
-.food-pd{
-    padding-right: 15px;
-}
+
 .food-h1{
     padding: 60px 0px 20px;
     text-transform: uppercase;
@@ -209,6 +233,6 @@ h2{
     letter-spacing: 1px;
 }
 
- /* food end  */
+ /* footer end  */
 
 
